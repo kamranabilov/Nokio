@@ -1,0 +1,219 @@
+nav{
+    .container{
+        .row{
+            display: flex;
+            padding-top: 22px;
+            .nav-links {
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    list-style: none;                    
+                    a {
+                        text-decoration: none;
+                    }
+                                            
+                }
+                .nav-icon a{
+                    text-decoration: none;                    
+                }
+                .nav-icon i{                    
+                        padding-left: 20px;
+                        color: skyblue;
+                        font-size: 15px;
+                    
+                }
+                .nav-icon{
+                    span{
+                        padding-left: 25px;
+                        color: skyblue;
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    .bg{
+        background-image: url(https://worldstrides.com/wp-content/uploads/2015/07/0001_SG-Now-1280x720.jpg);
+        height: 80vh;
+        background-position: center center;
+        object-fit: contain;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        flex-direction: column;
+        user-select: none;
+        h2 {
+            
+            color: white;
+            font-weight: 700;
+            font-size: 60px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            background-color: royalblue;
+            border-color: white;
+            width: 130px;
+        }           
+    }
+    .article{
+        margin: 50px 0;
+        .custom-bg{
+            background-image: url(https://www.nokia.com/sites/default/files/styles/scale_1920_width/public/2022-04/6940_Real%20Action%20Header_AF_V1Real%20Action%20-%201120x560%20NO%20TEXT%20%281%29.jpg);
+            display: flex;
+            height: 60vh;              
+            justify-content: center;
+            align-items: center;  
+            object-fit: contain;
+            flex-direction: column;
+            background-size: contain;
+            background-repeat: no-repeat; 
+            background-position: center center;   
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                color: white;
+            } 
+            button{
+                border-color: black;
+                width: 100px;
+                background-color: royalblue;
+            }       
+        }
+    }
+    .detail{
+        margin: 50px 0;
+        .summary{  
+            .title 
+            > h2{
+                text-align: center;
+            }          
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+                color: royalblue;
+                
+            }            
+            .image{ 
+                width: 495px;
+                height: 398px;
+                object-fit: cover;
+                overflow: hidden;  
+                margin: 20px 0;         
+                > img{
+                      width: 100%;
+                      height: 100%; 
+                      transition: 0.6s all ease-in-out;            
+                    &:hover{
+                        transform: scale(1.3);                    
+                    }
+                }
+            }            
+        }        
+    }
+    #container{
+        background-image: url(https://media.istockphoto.com/photos/starry-peaceful-night-picture-id172667102?k=20&m=172667102&s=170667a&w=0&h=gi9n8F4-GPlszeOtMqzhKv6ooERr2Myu16-NTz3uVDo=);
+        height: 100vh;
+        // width: 100%;
+        background-position: center center;
+        position: relative;
+        margin-bottom: 80px;
+        background-repeat: no-repeat;        
+        object-fit: cover;
+        background-size: cover;
+        .box{
+            width: 440px;
+            height: 310px;
+            background-color: #2965ED;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 3px;
+            margin-left: 250px;
+            .title-1{
+                text-align: center;
+                color: white;
+            }
+            #custom-btn{
+                border-color: white;
+                width: 170px;
+                height: 60px;                
+            }
+
+        }
+    }
+    .custom-col{
+        &:hover{
+            cursor: pointer;            
+            color: royalblue;
+            text-decoration: underline;
+            
+        }            
+        .image-1{ 
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            overflow: hidden;  
+            margin: 20px 0;         
+            > img{
+                  width: 100%;
+                  height: 100%; 
+                  transition: 0.6s all ease-in-out;            
+                &:hover{
+                    transform: scale(1.3);                    
+                }
+            }
+        } 
+    }
+    footer{
+        width: 100%;
+        background-color: #000;
+        margin: 50px 0;
+        .container{
+            display: flex;
+            justify-content: space-around;
+        } 
+        .sociol-media{
+            
+        }
+        .noki-logo{
+            float: left;
+            margin-left: 40px;
+        }
+        .foot-navlink{
+            a{
+                text-decoration: none;
+                list-style: none;
+                color: white;
+                padding-left: 8px;
+                font-weight: 700;                
+            }
+        }
+        .text{
+            p{
+                color: white;
+                font-size: medium;
+            }
+        }
+        #btn-b{
+            border-color: white;
+            background-color: #000;
+            width: 170px;
+            height: 40px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            &:hover{
+                background-color: #fff;
+                color: skyblue;
+                border-radius: 15px;
+            }
+        }
+    }
+}   
